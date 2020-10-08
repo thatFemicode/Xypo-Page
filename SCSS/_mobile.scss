@@ -1,0 +1,107 @@
+@media only screen and (max-width: 770px) {
+  #header {
+    background-image: none;
+
+    .container {
+      margin: 0 50px;
+    }
+    .logo {
+      margin-top: 27px;
+      width: 70px;
+    }
+    .header-text {
+      margin-top: 100px;
+      h1 {
+        font-size: 25px;
+      }
+      .common-btn {
+        padding: 10px 16px;
+      }
+    }
+  }
+  #sidenav {
+    #menubtn {
+      width: 40px;
+      right: 50px;
+    }
+  }
+  .social-icon {
+    img {
+      width: 14px;
+      margin: 15px auto;
+    }
+  }
+  #about,
+  #offer {
+    .container {
+      margin: 0 50px;
+    }
+    .about-left,
+    .about-right {
+      flex-basis: 100%;
+    }
+    .about-right {
+      .right-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+
+        h2 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  #features {
+    .container {
+      margin: 0 50px;
+    }
+    .feature-row {
+      .feature-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  #courses {
+    .container {
+      margin: 0 50px;
+    }
+    .course-row {
+      .course-left,
+      .course-right {
+        flex-basis: 100%;
+      }
+      .course-right {
+        margin-top: 70px;
+      }
+    }
+  }
+  #contact {
+    .container {
+      margin: 0 50px;
+    }
+    .contact-row {
+      .contact-left,
+      .contact-right {
+        flex-basis: 100%;
+      }
+      .contact-right {
+        margin-top: 50px;
+      }
+    }
+  }
+  #footer {
+    .container {
+      margin: 0 50px;
+      .footer-left,
+      .footer-right {
+        flex-basis: 100%;
+      }
+      .footer-left {
+        .link-title {
+          flex-basis: 50%;
+        }
+      }
+    }
+  }
+}
